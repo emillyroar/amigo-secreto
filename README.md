@@ -1,30 +1,33 @@
-# Amigo Secreto
+# 🎁 Projeto: Sorteio de Amigo Secreto
 
-Este projeto implementa uma versão simples de um sorteio de Amigo Secreto, onde o usuário pode adicionar amigos a uma lista e, em seguida, realizar o sorteio aleatório dos amigos. O sistema também exibe a lista de amigos e o resultado do sorteio na interface do usuário.
+Este é um projeto simples feito com **JavaScript puro (Vanilla JS)**, que permite cadastrar nomes de amigos e realizar um sorteio de **amigo secreto** de forma divertida e interativa! 🤩
 
-## Funcionalidades
+---
 
-- Adicionar nomes de amigos à lista.
-- Exibir a lista de amigos.
-- Sortear um amigo aleatoriamente.
-- Validar entradas e garantir que o sorteio só ocorra se houver amigos cadastrados.
+## ✨ Funcionalidades
 
-## Tecnologias Utilizadas
+- ✅ Adicionar nomes à lista de amigos
+- 📝 Exibir a lista atualizada em tempo real
+- 🔄 Sortear aleatoriamente um amigo da lista
+- ❌ Evitar que o amigo tire a si mesmo (versão alternativa do sorteio)
+- 📢 Exibir o resultado do sorteio na tela
 
-- **HTML**: Estrutura da página web.
-- **CSS**: Estilos básicos para a interface (opcional, você pode personalizar os estilos).
-- **JavaScript**: Lógica para adicionar amigos, realizar o sorteio e atualizar a interface.
+---
 
-## Como Usar
+## 📦 Tecnologias Utilizadas
 
-### Pré-requisitos
+- HTML
+- CSS (opcional)
+- JavaScript (DOM, lógica de sorteio, validações)
 
-Certifique-se de ter um navegador moderno (como Chrome, Firefox, Edge, etc.) para visualizar e interagir com o projeto.
+---
 
-### Instruções
+## 🧠 Conceitos Aplicados
 
-1. **Clone o repositório**:
-   Se você ainda não tem o projeto localmente, clone-o para sua máquina com o seguinte comando:
+- Manipulação do DOM com JavaScript
+- Validação de campos (`trim()`, verificação de array vazio)
+- Lógica de sorteio aleatório com `Math.random()`
+- Evitar repetições e sorteio do próprio nome
+- Uso de `forEach`, `createElement`, e `appendChild`
 
-   ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+
